@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="SampleNamespace" constructor="TSEmbedIframeComponent" version="2.0.0" display-name-key="TSEmbedIframeComponent" description-key="TSEmbedIframeComponent description" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="passSrc" display-name-key="Src" description-key="Src" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/TSEmbedIframeComponent.css" order="1" />
+    </resources>
+  </control>
+</manifest>
+<manifest>
